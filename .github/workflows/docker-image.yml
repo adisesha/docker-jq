@@ -20,7 +20,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: adisesh/jq
+        images: adisesha/jq
     - name: Build and push Docker image
       uses: docker/build-push-action@v3
       with:
