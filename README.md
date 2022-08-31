@@ -1,2 +1,2 @@
-# dokcer-jq
+# docker-jq
 Docker Image with jq
