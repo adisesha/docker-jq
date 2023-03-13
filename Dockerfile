@@ -1,5 +1,5 @@
-FROM alpine:3.16.2@sha256:1304f174557314a7ed9eddb4eab12fed12cb0cd9809e4c28f29af86979a3c870
+FROM alpine:3.17.2@sha256:e2e16842c9b54d985bf1ef9242a313f36b856181f188de21313820e177002501
 
-RUN apk update && apk add --no-cache  jq=1.6-r1 bash && rm -rf /var/cache/apk/*
+RUN apk update && apk add --no-cache  jq=1.6-r2 bash && rm -rf /var/cache/apk/*
     
 CMD [ "bash" ]
